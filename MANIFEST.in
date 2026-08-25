@@ -1,0 +1,2 @@
+include ripple1d\api\templates\*
+recursive-include ripple1d\api\static\ *

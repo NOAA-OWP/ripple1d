@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/static/img/favicon-32x32.png">
+    <title>Jobs List</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <h1>Jobs List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Logs (JobID)</th>
+                <th>Status</th>
+                <th>ProcessID</th>
+                <th>Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for job in response.jobs %}
+            <tr>
+                <td><a href="/jobs/{{job.jobID}}/logs" target="_blank">{{job.jobID}}</a></td>
+                <td><a href="/jobs/{{job.jobID}}" target="_blank">{{job.status}}</a></td>
+                <td> {{job.processID}}</a></td>
+                <td> {{job.updated}} </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <div class="pagination">
+    </div>
+</body>
+
+</html>
+{{end}}

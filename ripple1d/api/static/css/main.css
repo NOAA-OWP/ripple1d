@@ -1,0 +1,200 @@
+:root {
+    --font-color: #333;
+    --processID-color: #6C757D;
+    --background-color: #f1f1f1;
+    --link-color: #007BFF;
+    --link-hover-color: #0056b3;
+    --table-border-color: #686868;
+    --table-header-bg: #cfcfcf;
+    --table-row-even-bg: #e1e0e0;
+    --table-row-hover-bg: #E6F7FF;
+    --font-color-blue: #007BFF;
+    --font-color-gray: #6C757D;
+    --json-punctuation-color: #333;
+    --json-property-color: #007BFF;
+    --json-string-color: #aa7a00;
+    --json-number-color: #368a15;
+    --json-boolean-color: #008000;
+    --json-null-color: #800080;
+    --code-bg-color: #ffffff;
+    --status-client-error-color: #925f00;
+    --status-server-error-color: #d00000;
+
+    --log-warning: var(--status-client-error-color);
+    --log-error: var(--status-server-error-color);
+    --log-debug: #007BFF;
+    --log-info: green;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --font-color: #FFF;
+        --processID-color: #6C757D;
+        --background-color: #232323;
+        --link-color: #BB86FC;
+        --link-hover-color: #9c7bea;
+        --table-border-color: #b6b6b6;
+        --table-header-bg: #535353;
+        --table-row-even-bg: #343434;
+        --table-row-hover-bg: #232323;
+        --font-color-blue: #BB86FC;
+        --font-color-gray: #757575;
+        --json-punctuation-color: #FFF;
+        --json-property-color: #86b9fc;
+        --json-string-color: #DAA520;
+        --json-number-color: #57ae35;
+        --json-boolean-color: #008000;
+        --json-null-color: #800080;
+        --code-bg-color: #000000;
+        --status-client-error-color: orange;
+        --status-server-error-color: red;
+
+        --log-warning: orange;
+        --log-error: red;
+        --log-debug: #00BFFF; /* deep sky blue */
+        --log-info: #00c100; /* lime green */
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--font-color-gray);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+th,
+td {
+    padding: 0.6rem;
+    text-align: left;
+    border: 1px solid var(--table-border-color);
+}
+
+th {
+    background-color: var(--table-header-bg);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: var(--table-row-even-bg);
+}
+
+tr:hover {
+    background-color: var(--table-row-hover-bg);
+}
+
+.blue {
+    color: var(--font-color-blue);
+}
+
+.gray {
+    color: var(--font-color-gray);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.prev-link {
+    margin-right: 1rem;
+}
+
+.token {
+    background-color: transparent !important;
+}
+
+.token.punctuation {
+    color: var(--json-punctuation-color);
+}
+
+.token.property {
+    color: var(--json-property-color);
+}
+
+.token.string {
+    color: var(--json-string-color);
+}
+
+.token.number {
+    color: var(--json-number-color);
+}
+
+.token.boolean {
+    color: var(--json-boolean-color);
+}
+
+.token.null {
+    color: var(--json-null-color);
+}
+
+pre[class*="language-"] {
+    position: relative;
+    background-color: var(--code-bg-color);
+    border: 1px solid var(--table-border-color);
+    /* Use theme's table border color */
+    padding: 1rem;
+    /* Some padding */
+    margin: 1rem 0;
+    /* Top and bottom margin */
+    overflow-x: auto;
+    /* Horizontal scrollbar if needed */
+    line-height: 1.1;
+}
+
+code[class*="language-"] {
+    text-shadow: none;
+    background-color: var(--code-bg-color);
+    font-family: monospace;
+    /* Monospaced font */
+}
+
+/* CSS Classes for Log Levels */
+.log-warning {
+    color: var(--log-warning);
+}
+
+.log-error {
+    color: var(--log-error);
+}
+
+.log-debug {
+    color: var(--log-debug);
+}
+
+.log-info {
+    color: var(--log-info);
+}

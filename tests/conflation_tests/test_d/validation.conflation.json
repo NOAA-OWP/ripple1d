@@ -1,0 +1,49 @@
+{
+    "reaches": {
+        "5": {
+            "us_xs": {
+                "river": "A",
+                "reach": "B",
+                "xs_id": 3
+            },
+            "ds_xs": {
+                "river": "A",
+                "reach": "B",
+                "xs_id": 1
+            },
+            "eclipsed": false
+        },
+        "4": {
+            "eclipsed": true
+        },
+        "3": {
+            "eclipsed": true
+        },
+        "1": {
+            "us_xs": {
+                "river": "A",
+                "reach": "A",
+                "xs_id": 5
+            },
+            "ds_xs": {
+                "river": "A",
+                "reach": "A",
+                "xs_id": 4
+            },
+            "eclipsed": false
+        },
+        "2": {
+            "us_xs": {
+                "river": "A",
+                "reach": "A",
+                "xs_id": 4
+            },
+            "ds_xs": {
+                "river": "A",
+                "reach": "B",
+                "xs_id": 3
+            },
+            "eclipsed": false
+        }
+    }
+}

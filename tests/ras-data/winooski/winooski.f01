@@ -1,0 +1,18 @@
+Flow Title=winooski
+Program Version=6.50
+Number of Profiles= 1 
+Profile Names=PF 1
+River Rch & RM=Mainstem,Reach 1         ,30186   
+   20000
+Boundary for River Rch & Prof#=Mainstem,Reach 1         , 1 
+Up Type= 0 
+Dn Type= 3 
+Dn Slope=0.00001
+DSS Import StartDate=
+DSS Import StartTime=
+DSS Import EndDate=
+DSS Import EndTime=
+DSS Import GetInterval= 0 
+DSS Import Interval=
+DSS Import GetPeak= 0 
+DSS Import FillOption= 0 

@@ -1,0 +1,85 @@
+{
+    "reaches": {
+        "13802848": {
+            "us_xs": {
+                "river": "LaMoRv",
+                "reach": "Reach2",
+                "min_elevation": 487.47,
+                "max_elevation": 538.08,
+                "xs_id": 22743.14
+            },
+            "ds_xs": {
+                "river": "LaMoRv",
+                "reach": "Reach2",
+                "min_elevation": 486.75,
+                "max_elevation": 531.27,
+                "xs_id": 21988.44
+            },
+            "eclipsed": false,
+            "low_flow": 2585,
+            "high_flow": 34374,
+            "network_to_id": "13802914"
+        },
+        "13802810": {
+            "us_xs": {
+                "river": "LaMoRv",
+                "reach": "Reach3",
+                "min_elevation": 490.87,
+                "max_elevation": 531.85,
+                "xs_id": 37945.8
+            },
+            "ds_xs": {
+                "river": "LaMoRv",
+                "reach": "Reach2",
+                "min_elevation": 487.47,
+                "max_elevation": 538.08,
+                "xs_id": 22743.14
+            },
+            "eclipsed": false,
+            "low_flow": 2601,
+            "high_flow": 35138,
+            "network_to_id": "13802848"
+        },
+        "13802834": {
+            "us_xs": {
+                "river": "LaMoRvTrbA",
+                "reach": "Reach1",
+                "min_elevation": 497.46,
+                "max_elevation": 552.85,
+                "xs_id": 3603.552
+            },
+            "ds_xs": {
+                "river": "LaMoRv",
+                "reach": "Reach2",
+                "min_elevation": 487.47,
+                "max_elevation": 538.08,
+                "xs_id": 22743.14
+            },
+            "eclipsed": false,
+            "low_flow": 172,
+            "high_flow": 2671,
+            "network_to_id": "13802848"
+        }
+    },
+    "metadata": {
+        "source_network": {
+            "file_name": "nwm.parquet",
+            "type": "nwm_hydrofabric",
+            "version": "0.10.0[testing]"
+        },
+        "conflation_ripple1d_version": "0.10.0",
+        "metrics_ripple1d_version": "0.10.0",
+        "source_ras_model": {
+            "stac_api": null,
+            "stac_collection_id": null,
+            "stac_item_id": null,
+            "units": null,
+            "source_ras_files": {
+                "geometry": null,
+                "forcing": null,
+                "project-file": null,
+                "plan": null
+            }
+        }
+    }
+}

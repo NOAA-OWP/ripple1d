@@ -1,0 +1,210 @@
+{
+    "reaches": {
+        "4576956": {
+            "us_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 100.79,
+                "max_elevation": 226.81,
+                "xs_id": 19359.3
+            },
+            "ds_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 97.52,
+                "max_elevation": 255.88,
+                "xs_id": 845.0
+            },
+            "eclipsed": false,
+            "low_flow": 0,
+            "high_flow": 51397,
+            "network_to_id": "4576960",
+            "ds_slope": 0.00013,
+            "ds_slope_source_nwm_id": "4576956",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 6,
+                        "mean": 29,
+                        "std": 24,
+                        "min": 7,
+                        "25%": 10,
+                        "50%": 23,
+                        "75%": 48,
+                        "max": 62
+                    },
+                    "thalweg_offset": {
+                        "count": 6,
+                        "mean": 136,
+                        "std": 142,
+                        "min": 0,
+                        "25%": 9,
+                        "50%": 134,
+                        "75%": 264,
+                        "max": 275
+                    }
+                },
+                "lengths": {
+                    "ras": 18487,
+                    "network": 18074,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.01,
+                    "end": 0.45
+                }
+            },
+            "overlapped_reaches": [],
+            "eclipsed_reaches": []
+        },
+        "4578832": {
+            "us_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 98.72,
+                "max_elevation": 298.86,
+                "xs_id": 30186.0
+            },
+            "ds_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 99.06,
+                "max_elevation": 230.46,
+                "xs_id": 23252.8
+            },
+            "eclipsed": false,
+            "low_flow": 0,
+            "high_flow": 52547,
+            "network_to_id": "4576958",
+            "gage": "04290560",
+            "gage_url": "https://waterdata.usgs.gov/nwis/uv?site_no=04290560&legacy=1",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "4576958",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 6,
+                        "mean": 22,
+                        "std": 14,
+                        "min": 11,
+                        "25%": 15,
+                        "50%": 18,
+                        "75%": 24,
+                        "max": 49
+                    },
+                    "thalweg_offset": {
+                        "count": 6,
+                        "mean": 129,
+                        "std": 131,
+                        "min": 11,
+                        "25%": 23,
+                        "50%": 85,
+                        "75%": 231,
+                        "max": 310
+                    }
+                },
+                "lengths": {
+                    "ras": 7296,
+                    "network": 7335,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.69,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "4576958",
+                    "overlap": 743
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "4576958": {
+            "us_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 99.06,
+                "max_elevation": 230.46,
+                "xs_id": 23252.8
+            },
+            "ds_xs": {
+                "river": "Mainstem",
+                "reach": "Reach 1",
+                "min_elevation": 100.79,
+                "max_elevation": 226.81,
+                "xs_id": 19359.3
+            },
+            "eclipsed": false,
+            "low_flow": 0,
+            "high_flow": 52528,
+            "network_to_id": "4576956",
+            "ds_slope": 0.00013,
+            "ds_slope_source_nwm_id": "4576956",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 20,
+                        "std": 14,
+                        "min": 7,
+                        "25%": 11,
+                        "50%": 11,
+                        "75%": 35,
+                        "max": 35
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 200,
+                        "std": 116,
+                        "min": 19,
+                        "25%": 156,
+                        "50%": 251,
+                        "75%": 266,
+                        "max": 310
+                    }
+                },
+                "lengths": {
+                    "ras": 3555,
+                    "network": 3663,
+                    "network_to_ras_ratio": 1.03
+                },
+                "coverage": {
+                    "start": 0.18,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "4576956",
+                    "overlap": 368
+                }
+            ],
+            "eclipsed_reaches": []
+        }
+    },
+    "metadata": {
+        "source_network": {
+            "file_name": "flows.parquet",
+            "type": "nwm_hydrofabric",
+            "version": "2.1"
+        },
+        "conflation_ripple1d_version": "0.10.4",
+        "metrics_ripple1d_version": "0.10.4",
+        "source_ras_model": {
+            "stac_api": "https://stac2.dewberryanalytics.com",
+            "stac_collection_id": "ebfe-12090301_LowerColoradoCummins",
+            "stac_item_id": "137a9667-e5cf-4cea-b6ec-2e882a42fdc8",
+            "units": "English",
+            "source_ras_files": {
+                "geometry": "winooski.g01",
+                "forcing": "winooski.f01",
+                "project-file": "winooski.prj",
+                "plan": "winooski.p01"
+            }
+        },
+        "length_units": "feet",
+        "flow_units": "cfs"
+    }
+}

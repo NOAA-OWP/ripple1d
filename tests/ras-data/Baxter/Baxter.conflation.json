@@ -1,0 +1,768 @@
+{
+    "reaches": {
+        "2821866": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 23.5,
+                "max_elevation": 58.28,
+                "xs_id": 2877.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 20.6,
+                "max_elevation": 58.0,
+                "xs_id": 1192.0
+            },
+            "eclipsed": false,
+            "low_flow": 4280,
+            "high_flow": 25819,
+            "network_to_id": "2820026",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2821866",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 11,
+                        "std": 15,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 4,
+                        "75%": 16,
+                        "max": 28
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 43,
+                        "std": 40,
+                        "min": 6,
+                        "25%": 22,
+                        "50%": 38,
+                        "75%": 61,
+                        "max": 85
+                    }
+                },
+                "lengths": {
+                    "ras": 1686,
+                    "network": 1631,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.08,
+                    "end": 0.6
+                }
+            },
+            "overlapped_reaches": [],
+            "eclipsed_reaches": []
+        },
+        "2820012": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 26.9,
+                "max_elevation": 61.62,
+                "xs_id": 12789.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 23.5,
+                "max_elevation": 58.28,
+                "xs_id": 2877.0
+            },
+            "eclipsed": false,
+            "low_flow": 4280,
+            "high_flow": 25824,
+            "network_to_id": "2821866",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2821866",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 15,
+                        "mean": 5,
+                        "std": 4,
+                        "min": 0,
+                        "25%": 2,
+                        "50%": 5,
+                        "75%": 8,
+                        "max": 13
+                    },
+                    "thalweg_offset": {
+                        "count": 15,
+                        "mean": 16,
+                        "std": 15,
+                        "min": 1,
+                        "25%": 4,
+                        "50%": 11,
+                        "75%": 22,
+                        "max": 43
+                    }
+                },
+                "lengths": {
+                    "ras": 9888,
+                    "network": 9860,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.03,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2821866",
+                    "overlap": 234
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2820006": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 25.8,
+                "max_elevation": 65.0,
+                "xs_id": 13617.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 26.9,
+                "max_elevation": 61.62,
+                "xs_id": 12789.0
+            },
+            "eclipsed": false,
+            "low_flow": 4280,
+            "high_flow": 25832,
+            "network_to_id": "2820012",
+            "ds_slope": 0.00047,
+            "ds_slope_source_nwm_id": "2820012",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 11,
+                        "std": 5,
+                        "min": 6,
+                        "25%": 9,
+                        "50%": 12,
+                        "75%": 14,
+                        "max": 16
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 33,
+                        "std": 9,
+                        "min": 26,
+                        "25%": 29,
+                        "50%": 32,
+                        "75%": 37,
+                        "max": 43
+                    }
+                },
+                "lengths": {
+                    "ras": 826,
+                    "network": 840,
+                    "network_to_ras_ratio": 1.02
+                },
+                "coverage": {
+                    "start": 0.4,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2820012",
+                    "overlap": 261
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2823972": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 33.59,
+                "max_elevation": 85.84,
+                "xs_id": 47694.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 31.9,
+                "max_elevation": 85.84,
+                "xs_id": 38312.0
+            },
+            "eclipsed": false,
+            "low_flow": 4297,
+            "high_flow": 26562,
+            "network_to_id": "2820002",
+            "gage": "11290000",
+            "gage_url": "https://waterdata.usgs.gov/nwis/uv?site_no=11290000&legacy=1",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2820002",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 27,
+                        "mean": 25,
+                        "std": 12,
+                        "min": 1,
+                        "25%": 19,
+                        "50%": 29,
+                        "75%": 34,
+                        "max": 42
+                    },
+                    "thalweg_offset": {
+                        "count": 27,
+                        "mean": 29,
+                        "std": 12,
+                        "min": 2,
+                        "25%": 23,
+                        "50%": 29,
+                        "75%": 37,
+                        "max": 53
+                    }
+                },
+                "lengths": {
+                    "ras": 9386,
+                    "network": 9278,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.06,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2820002",
+                    "overlap": 411
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2820002": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 31.9,
+                "max_elevation": 85.84,
+                "xs_id": 38312.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 25.8,
+                "max_elevation": 65.0,
+                "xs_id": 13617.0
+            },
+            "eclipsed": false,
+            "low_flow": 4280,
+            "high_flow": 25831,
+            "network_to_id": "2820006",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2820006",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 40,
+                        "mean": 9,
+                        "std": 7,
+                        "min": 0,
+                        "25%": 4,
+                        "50%": 7,
+                        "75%": 14,
+                        "max": 31
+                    },
+                    "thalweg_offset": {
+                        "count": 40,
+                        "mean": 10,
+                        "std": 8,
+                        "min": 0,
+                        "25%": 4,
+                        "50%": 7,
+                        "75%": 12,
+                        "max": 35
+                    }
+                },
+                "lengths": {
+                    "ras": 24643,
+                    "network": 24636,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.02,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2820006",
+                    "overlap": 380
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2823920": {
+            "us_xs": {
+                "river": "Tule Creek",
+                "reach": "Tributary",
+                "min_elevation": 38.0,
+                "max_elevation": 95.84,
+                "xs_id": 10982.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 33.59,
+                "max_elevation": 85.84,
+                "xs_id": 47694.0
+            },
+            "eclipsed": false,
+            "low_flow": 412,
+            "high_flow": 11271,
+            "network_to_id": "2823972",
+            "ds_slope": 0.00081,
+            "ds_slope_source_nwm_id": "2823972",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 26,
+                        "mean": 28,
+                        "std": 16,
+                        "min": 2,
+                        "25%": 16,
+                        "50%": 28,
+                        "75%": 41,
+                        "max": 52
+                    },
+                    "thalweg_offset": {
+                        "count": 26,
+                        "mean": 31,
+                        "std": 17,
+                        "min": 3,
+                        "25%": 17,
+                        "50%": 28,
+                        "75%": 47,
+                        "max": 54
+                    }
+                },
+                "lengths": {
+                    "ras": 11459,
+                    "network": 11221,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.82,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2823972",
+                    "overlap": 476
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2826228": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 33.4,
+                "max_elevation": 125.0,
+                "xs_id": 84816.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 55.0,
+                "max_elevation": 120.02,
+                "xs_id": 84000.0
+            },
+            "eclipsed": false,
+            "low_flow": 4251,
+            "high_flow": 23506,
+            "network_to_id": "2823932",
+            "ds_slope": 0.00131,
+            "ds_slope_source_nwm_id": "2823932",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 14,
+                        "std": 7,
+                        "min": 9,
+                        "25%": 11,
+                        "50%": 14,
+                        "75%": 16,
+                        "max": 19
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 13,
+                        "std": 10,
+                        "min": 6,
+                        "25%": 10,
+                        "50%": 13,
+                        "75%": 17,
+                        "max": 21
+                    }
+                },
+                "lengths": {
+                    "ras": 821,
+                    "network": 838,
+                    "network_to_ras_ratio": 1.02
+                },
+                "coverage": {
+                    "start": 0.74,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2823932",
+                    "overlap": 272
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2823932": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 55.0,
+                "max_elevation": 120.02,
+                "xs_id": 84000.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 35.1,
+                "max_elevation": 120.06,
+                "xs_id": 81920.0
+            },
+            "eclipsed": false,
+            "low_flow": 4252,
+            "high_flow": 23506,
+            "network_to_id": "2826230",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2826230",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 6,
+                        "mean": 9,
+                        "std": 6,
+                        "min": 4,
+                        "25%": 5,
+                        "50%": 8,
+                        "75%": 12,
+                        "max": 19
+                    },
+                    "thalweg_offset": {
+                        "count": 6,
+                        "mean": 23,
+                        "std": 15,
+                        "min": 7,
+                        "25%": 12,
+                        "50%": 20,
+                        "75%": 30,
+                        "max": 47
+                    }
+                },
+                "lengths": {
+                    "ras": 2079,
+                    "network": 2036,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.15,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2826230",
+                    "overlap": 431
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2823960": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 50.0,
+                "max_elevation": 105.42,
+                "xs_id": 78658.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Lower Reach",
+                "min_elevation": 33.59,
+                "max_elevation": 85.84,
+                "xs_id": 47694.0
+            },
+            "eclipsed": false,
+            "low_flow": 4271,
+            "high_flow": 23529,
+            "network_to_id": "2823972",
+            "ds_slope": 0.00081,
+            "ds_slope_source_nwm_id": "2823972",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 51,
+                        "mean": 23,
+                        "std": 14,
+                        "min": 1,
+                        "25%": 12,
+                        "50%": 20,
+                        "75%": 32,
+                        "max": 53
+                    },
+                    "thalweg_offset": {
+                        "count": 51,
+                        "mean": 27,
+                        "std": 19,
+                        "min": 0,
+                        "25%": 11,
+                        "50%": 23,
+                        "75%": 40,
+                        "max": 71
+                    }
+                },
+                "lengths": {
+                    "ras": 30814,
+                    "network": 30535,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.01,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2823972",
+                    "overlap": 595
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2826230": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 35.1,
+                "max_elevation": 120.06,
+                "xs_id": 81920.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 55.0,
+                "max_elevation": 110.29,
+                "xs_id": 80916.0
+            },
+            "eclipsed": false,
+            "low_flow": 4253,
+            "high_flow": 23506,
+            "network_to_id": "2823934",
+            "ds_slope": 0.00138,
+            "ds_slope_source_nwm_id": "2823934",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 17,
+                        "std": 9,
+                        "min": 7,
+                        "25%": 11,
+                        "50%": 17,
+                        "75%": 23,
+                        "max": 29
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 39,
+                        "std": 22,
+                        "min": 6,
+                        "25%": 37,
+                        "50%": 49,
+                        "75%": 52,
+                        "max": 54
+                    }
+                },
+                "lengths": {
+                    "ras": 999,
+                    "network": 909,
+                    "network_to_ras_ratio": 0.91
+                },
+                "coverage": {
+                    "start": 0.38,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2823934",
+                    "overlap": 218
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2823934": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 55.0,
+                "max_elevation": 110.29,
+                "xs_id": 80916.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 50.0,
+                "max_elevation": 110.0,
+                "xs_id": 79577.0
+            },
+            "eclipsed": false,
+            "low_flow": 4254,
+            "high_flow": 23506,
+            "network_to_id": "2826224",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "2826224",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 21,
+                        "std": 10,
+                        "min": 6,
+                        "25%": 18,
+                        "50%": 24,
+                        "75%": 27,
+                        "max": 29
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 53,
+                        "std": 2,
+                        "min": 51,
+                        "25%": 52,
+                        "50%": 53,
+                        "75%": 53,
+                        "max": 55
+                    }
+                },
+                "lengths": {
+                    "ras": 1345,
+                    "network": 1304,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.17,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2826224",
+                    "overlap": 260
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "2826224": {
+            "us_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 50.0,
+                "max_elevation": 110.0,
+                "xs_id": 79577.0
+            },
+            "ds_xs": {
+                "river": "Baxter River",
+                "reach": "Upper Reach",
+                "min_elevation": 50.0,
+                "max_elevation": 105.42,
+                "xs_id": 78658.0
+            },
+            "eclipsed": false,
+            "low_flow": 4255,
+            "high_flow": 23506,
+            "network_to_id": "2823960",
+            "ds_slope": 0.00029,
+            "ds_slope_source_nwm_id": "2823960",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 13,
+                        "std": 9,
+                        "min": 6,
+                        "25%": 8,
+                        "50%": 10,
+                        "75%": 17,
+                        "max": 23
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 42,
+                        "std": 12,
+                        "min": 30,
+                        "25%": 37,
+                        "50%": 45,
+                        "75%": 49,
+                        "max": 53
+                    }
+                },
+                "lengths": {
+                    "ras": 911,
+                    "network": 993,
+                    "network_to_ras_ratio": 1.09
+                },
+                "coverage": {
+                    "start": 0.3,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "2823960",
+                    "overlap": 374
+                }
+            ],
+            "eclipsed_reaches": []
+        }
+    },
+    "metadata": {
+        "source_network": {
+            "file_name": "flows.parquet",
+            "type": "nwm_hydrofabric",
+            "version": "2.1"
+        },
+        "conflation_ripple1d_version": "0.10.4",
+        "metrics_ripple1d_version": "0.10.4",
+        "source_ras_model": {
+            "stac_api": "https://stac2.dewberryanalytics.com",
+            "stac_collection_id": "ebfe-12090301_LowerColoradoCummins",
+            "stac_item_id": "137a9667-e5cf-4cea-b6ec-2e882a42fdc8",
+            "units": "English",
+            "source_ras_files": {
+                "geometry": "Baxter.g02",
+                "forcing": "Baxter.f01",
+                "project-file": "Baxter.prj",
+                "plan": "Baxter.p01"
+            }
+        },
+        "length_units": "feet",
+        "flow_units": "cfs"
+    }
+}

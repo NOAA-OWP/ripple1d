@@ -1,0 +1,91 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ripple1d"
+dynamic = ["version"]
+description = "HEC-RAS model automation"
+readme = "README.md"
+maintainers = [
+    { name = "Seth Lawler", email = "slawler@dewberry.com" },
+    { name = "Matt Deshotel", email = "mdeshotel@dewberry.com" },
+    { name = "Scott Lawson", email = "klawson@dewberry.com" },
+    { name = "Abdul Siddiqui", email = "abdul.siddiqui@entarian.com" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "boto3==1.35.0",
+    "contextily==1.6.0",
+    "python-dotenv",
+    "flask==3.0.3",
+    "fiona==1.9.6",
+    "h5py==3.11.0",
+    "huey==2.5.1",
+    "geopandas==1.0.1",
+    "matplotlib==3.9.0",
+    "mypy_boto3_s3==1.34.120",
+    "numpy==2.0.1",
+    "psutil==6.0.0",
+    "pystac==1.13.0",
+    "pyarrow==16.1.0",
+    "rasterio==1.3.10",
+    "requests==2.32.3",
+    "shapely==2.0.5",
+    "xarray==2024.11.0",
+    "rioxarray==0.18.1",
+    "rashdf==0.8.2",
+    "typing_extensions==4.14.1",
+    "obstore==0.6.0"
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit", "ruff", "pytest", "pytest-cov", "pytest-json-report"]
+docs = ["sphinx", "numpydoc", "sphinx_rtd_theme", "sphinx_design", "pydata-sphinx-theme", "sphinx-autodoc-typehints", "myst-parser"]
+
+[project.urls]
+repository = "https://github.com/NGWPC/ripple1d"
+
+[project.scripts]
+ripple1d = "ripple1d.api.manager:main"
+
+[tool.pytest.ini_options]
+pythonpath = "ripple1d"
+testpaths = "tests"
+
+[tool.ruff.lint]
+select = ["D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff]
+line-length = 120
+exclude = ["production"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+"docs/**" = ["D"]
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ripple1d*"]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "ripple1d.__version__"}
+
+
+[tool.sphinx]
+project = "ripple1d"
+author = "NGWPC, OWP, Dewberry, Entarian"

@@ -1,0 +1,3768 @@
+{
+    "reaches": {
+        "11908582": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -10.6,
+                "max_elevation": 93.12,
+                "xs_id": 32805.59
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -8.5,
+                "max_elevation": 53.21,
+                "xs_id": 26469.46
+            },
+            "eclipsed": false,
+            "low_flow": 1519,
+            "high_flow": 23963,
+            "network_to_id": "11908588",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908588",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 10,
+                        "mean": 13,
+                        "std": 8,
+                        "min": 1,
+                        "25%": 6,
+                        "50%": 14,
+                        "75%": 21,
+                        "max": 24
+                    },
+                    "thalweg_offset": {
+                        "count": 10,
+                        "mean": 40,
+                        "std": 34,
+                        "min": 1,
+                        "25%": 12,
+                        "50%": 39,
+                        "75%": 54,
+                        "max": 98
+                    }
+                },
+                "lengths": {
+                    "ras": 6377,
+                    "network": 6334,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.09,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908588",
+                    "overlap": 757
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907736": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 18.1,
+                "max_elevation": 95.86,
+                "xs_id": 122117.8
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 20.5,
+                "max_elevation": 81.42,
+                "xs_id": 118899.1
+            },
+            "eclipsed": false,
+            "low_flow": 737,
+            "high_flow": 7938,
+            "network_to_id": "11908292",
+            "ds_slope": 0.00054,
+            "ds_slope_source_nwm_id": "11908292",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 55,
+                        "std": 26,
+                        "min": 23,
+                        "25%": 39,
+                        "50%": 54,
+                        "75%": 66,
+                        "max": 92
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 47,
+                        "std": 18,
+                        "min": 25,
+                        "25%": 36,
+                        "50%": 41,
+                        "75%": 65,
+                        "max": 67
+                    }
+                },
+                "lengths": {
+                    "ras": 3220,
+                    "network": 2712,
+                    "network_to_ras_ratio": 0.84
+                },
+                "coverage": {
+                    "start": 0.19,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908292",
+                    "overlap": 299
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907726": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 23.5,
+                "max_elevation": 92.56,
+                "xs_id": 127390.9
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 18.1,
+                "max_elevation": 95.86,
+                "xs_id": 122117.8
+            },
+            "eclipsed": false,
+            "low_flow": 720,
+            "high_flow": 6741,
+            "network_to_id": "11907736",
+            "ds_slope": 0.00089,
+            "ds_slope_source_nwm_id": "11907736",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 30,
+                        "std": 41,
+                        "min": 6,
+                        "25%": 9,
+                        "50%": 12,
+                        "75%": 33,
+                        "max": 92
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 25,
+                        "std": 29,
+                        "min": 3,
+                        "25%": 10,
+                        "50%": 14,
+                        "75%": 29,
+                        "max": 67
+                    }
+                },
+                "lengths": {
+                    "ras": 5260,
+                    "network": 5254,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.01,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907736",
+                    "overlap": 577
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906328": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 36.4,
+                "max_elevation": 65.54,
+                "xs_id": 131156.0
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 23.5,
+                "max_elevation": 92.56,
+                "xs_id": 127390.9
+            },
+            "eclipsed": false,
+            "low_flow": 697,
+            "high_flow": 6604,
+            "network_to_id": "11906060",
+            "ds_slope": 0.00078,
+            "ds_slope_source_nwm_id": "11907726",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 19,
+                        "std": 15,
+                        "min": 5,
+                        "25%": 9,
+                        "50%": 15,
+                        "75%": 25,
+                        "max": 40
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 19,
+                        "std": 14,
+                        "min": 8,
+                        "25%": 11,
+                        "50%": 15,
+                        "75%": 23,
+                        "max": 39
+                    }
+                },
+                "lengths": {
+                    "ras": 3776,
+                    "network": 3574,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.02,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907726",
+                    "overlap": 53
+                }
+            ],
+            "eclipsed_reaches": [
+                "11906060"
+            ]
+        },
+        "11906034": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 41.3,
+                "max_elevation": 82.06,
+                "xs_id": 137262.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 40.3,
+                "max_elevation": 68.8,
+                "xs_id": 136140.3
+            },
+            "eclipsed": false,
+            "low_flow": 647,
+            "high_flow": 5567,
+            "network_to_id": "11906036",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11906036",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 17,
+                        "std": 4,
+                        "min": 14,
+                        "25%": 16,
+                        "50%": 17,
+                        "75%": 19,
+                        "max": 20
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 20,
+                        "std": 4,
+                        "min": 17,
+                        "25%": 19,
+                        "50%": 20,
+                        "75%": 21,
+                        "max": 23
+                    }
+                },
+                "lengths": {
+                    "ras": 1125,
+                    "network": 1068,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.05,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906036",
+                    "overlap": 49
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905990": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 58.8,
+                "max_elevation": 82.0,
+                "xs_id": 149785.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 55.7,
+                "max_elevation": 102.27,
+                "xs_id": 148278.9
+            },
+            "eclipsed": false,
+            "low_flow": 630,
+            "high_flow": 5550,
+            "network_to_id": "11905994",
+            "ds_slope": 0.00054,
+            "ds_slope_source_nwm_id": "11905994",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 12,
+                        "std": 8,
+                        "min": 6,
+                        "25%": 9,
+                        "50%": 12,
+                        "75%": 14,
+                        "max": 17
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 21,
+                        "std": 4,
+                        "min": 18,
+                        "25%": 19,
+                        "50%": 21,
+                        "75%": 22,
+                        "max": 24
+                    }
+                },
+                "lengths": {
+                    "ras": 1497,
+                    "network": 1421,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.39,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905994",
+                    "overlap": 1093
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906276": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.6,
+                "max_elevation": 122.77,
+                "xs_id": 163384.4
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 71.9,
+                "max_elevation": 166.1,
+                "xs_id": 161033.5
+            },
+            "eclipsed": false,
+            "low_flow": 627,
+            "high_flow": 5777,
+            "network_to_id": "11906282",
+            "ds_slope": 0.00118,
+            "ds_slope_source_nwm_id": "11906282",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 8,
+                        "std": 4,
+                        "min": 2,
+                        "25%": 6,
+                        "50%": 9,
+                        "75%": 9,
+                        "max": 12
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 15,
+                        "std": 7,
+                        "min": 4,
+                        "25%": 14,
+                        "50%": 16,
+                        "75%": 20,
+                        "max": 22
+                    }
+                },
+                "lengths": {
+                    "ras": 2342,
+                    "network": 2140,
+                    "network_to_ras_ratio": 0.91
+                },
+                "coverage": {
+                    "start": 0.25,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906282",
+                    "overlap": 1025
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905958": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 72.95,
+                "max_elevation": 105.86,
+                "xs_id": 164309.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.6,
+                "max_elevation": 122.77,
+                "xs_id": 163384.4
+            },
+            "eclipsed": false,
+            "low_flow": 626,
+            "high_flow": 5748,
+            "network_to_id": "11906276",
+            "ds_slope": 0.00227,
+            "ds_slope_source_nwm_id": "11906276",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 4,
+                        "std": 5,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 2,
+                        "75%": 6,
+                        "max": 9
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 3,
+                        "std": 2,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 2,
+                        "75%": 3,
+                        "max": 4
+                    }
+                },
+                "lengths": {
+                    "ras": 919,
+                    "network": 943,
+                    "network_to_ras_ratio": 1.03
+                },
+                "coverage": {
+                    "start": 0.25,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906276",
+                    "overlap": 373
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906270": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.1,
+                "max_elevation": 103.51,
+                "xs_id": 165339.0
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 72.95,
+                "max_elevation": 105.86,
+                "xs_id": 164309.7
+            },
+            "eclipsed": false,
+            "low_flow": 624,
+            "high_flow": 5729,
+            "network_to_id": "11905958",
+            "ds_slope": 0.00388,
+            "ds_slope_source_nwm_id": "11905958",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 13,
+                        "std": 16,
+                        "min": 2,
+                        "25%": 7,
+                        "50%": 13,
+                        "75%": 19,
+                        "max": 24
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 13,
+                        "std": 17,
+                        "min": 1,
+                        "25%": 7,
+                        "50%": 13,
+                        "75%": 19,
+                        "max": 25
+                    }
+                },
+                "lengths": {
+                    "ras": 1033,
+                    "network": 1097,
+                    "network_to_ras_ratio": 1.06
+                },
+                "coverage": {
+                    "start": 0.27,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905958",
+                    "overlap": 190
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905918": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.2,
+                "max_elevation": 101.98,
+                "xs_id": 166384.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.1,
+                "max_elevation": 103.51,
+                "xs_id": 165339.0
+            },
+            "eclipsed": false,
+            "low_flow": 630,
+            "high_flow": 5881,
+            "network_to_id": "11906270",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11906270",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 110,
+                        "std": 122,
+                        "min": 24,
+                        "25%": 67,
+                        "50%": 110,
+                        "75%": 153,
+                        "max": 196
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 109,
+                        "std": 119,
+                        "min": 25,
+                        "25%": 67,
+                        "50%": 109,
+                        "75%": 151,
+                        "max": 193
+                    }
+                },
+                "lengths": {
+                    "ras": 1053,
+                    "network": 975,
+                    "network_to_ras_ratio": 0.93
+                },
+                "coverage": {
+                    "start": 0.54,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906270",
+                    "overlap": 343
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905914": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 77.2,
+                "max_elevation": 133.77,
+                "xs_id": 168859.9
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 73.2,
+                "max_elevation": 101.98,
+                "xs_id": 166384.6
+            },
+            "eclipsed": false,
+            "low_flow": 632,
+            "high_flow": 5903,
+            "network_to_id": "11905918",
+            "ds_slope": 0.00387,
+            "ds_slope_source_nwm_id": "11905918",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 315,
+                        "std": 118,
+                        "min": 196,
+                        "25%": 255,
+                        "50%": 314,
+                        "75%": 374,
+                        "max": 433
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 315,
+                        "std": 120,
+                        "min": 193,
+                        "25%": 256,
+                        "50%": 320,
+                        "75%": 376,
+                        "max": 433
+                    }
+                },
+                "lengths": {
+                    "ras": 2478,
+                    "network": 1988,
+                    "network_to_ras_ratio": 0.8
+                },
+                "coverage": {
+                    "start": 0.4,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905918",
+                    "overlap": 743
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905844": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 96.6,
+                "max_elevation": 126.51,
+                "xs_id": 180215.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 90.1,
+                "max_elevation": 108.89,
+                "xs_id": 176090.0
+            },
+            "eclipsed": false,
+            "low_flow": 625,
+            "high_flow": 5823,
+            "network_to_id": "11905848",
+            "ds_slope": 0.00196,
+            "ds_slope_source_nwm_id": "11906232",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 141,
+                        "std": 68,
+                        "min": 34,
+                        "25%": 126,
+                        "50%": 143,
+                        "75%": 199,
+                        "max": 200
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 138,
+                        "std": 66,
+                        "min": 40,
+                        "25%": 121,
+                        "50%": 133,
+                        "75%": 189,
+                        "max": 207
+                    }
+                },
+                "lengths": {
+                    "ras": 4112,
+                    "network": 3437,
+                    "network_to_ras_ratio": 0.84
+                },
+                "coverage": {
+                    "start": 0.34,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906232",
+                    "overlap": 610
+                }
+            ],
+            "eclipsed_reaches": [
+                "11905848"
+            ]
+        },
+        "11905838": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 99.89999,
+                "max_elevation": 133.81,
+                "xs_id": 183459.5
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 96.6,
+                "max_elevation": 126.51,
+                "xs_id": 180215.6
+            },
+            "eclipsed": false,
+            "low_flow": 626,
+            "high_flow": 5775,
+            "network_to_id": "11905836",
+            "ds_slope": 0.00101,
+            "ds_slope_source_nwm_id": "11905844",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 51,
+                        "std": 84,
+                        "min": 6,
+                        "25%": 7,
+                        "50%": 11,
+                        "75%": 32,
+                        "max": 199
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 54,
+                        "std": 86,
+                        "min": 5,
+                        "25%": 9,
+                        "50%": 15,
+                        "75%": 31,
+                        "max": 207
+                    }
+                },
+                "lengths": {
+                    "ras": 3253,
+                    "network": 3980,
+                    "network_to_ras_ratio": 1.22
+                },
+                "coverage": {
+                    "start": 0.06,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905844",
+                    "overlap": 1270
+                }
+            ],
+            "eclipsed_reaches": [
+                "11905836"
+            ]
+        },
+        "11906208": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 104.76,
+                "max_elevation": 137.29,
+                "xs_id": 187454.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 99.89999,
+                "max_elevation": 133.81,
+                "xs_id": 183459.5
+            },
+            "eclipsed": false,
+            "low_flow": 627,
+            "high_flow": 5899,
+            "network_to_id": "11905838",
+            "ds_slope": 0.00121,
+            "ds_slope_source_nwm_id": "11905838",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 10,
+                        "mean": 155,
+                        "std": 88,
+                        "min": 11,
+                        "25%": 84,
+                        "50%": 197,
+                        "75%": 215,
+                        "max": 237
+                    },
+                    "thalweg_offset": {
+                        "count": 10,
+                        "mean": 158,
+                        "std": 92,
+                        "min": 15,
+                        "25%": 86,
+                        "50%": 203,
+                        "75%": 220,
+                        "max": 239
+                    }
+                },
+                "lengths": {
+                    "ras": 4000,
+                    "network": null,
+                    "network_to_ras_ratio": null
+                },
+                "coverage": {
+                    "start": 1.03,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905838",
+                    "overlap": 120
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905834": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 103.26,
+                "max_elevation": 141.2,
+                "xs_id": 186994.1
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 99.03,
+                "max_elevation": 132.69,
+                "xs_id": 183710.5
+            },
+            "eclipsed": false,
+            "low_flow": 627,
+            "high_flow": 5742,
+            "network_to_id": "11906208",
+            "ds_slope": 0.00022,
+            "ds_slope_source_nwm_id": "11906208",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 7,
+                        "mean": 14,
+                        "std": 17,
+                        "min": 3,
+                        "25%": 5,
+                        "50%": 8,
+                        "75%": 12,
+                        "max": 51
+                    },
+                    "thalweg_offset": {
+                        "count": 7,
+                        "mean": 17,
+                        "std": 16,
+                        "min": 2,
+                        "25%": 9,
+                        "50%": 14,
+                        "75%": 18,
+                        "max": 50
+                    }
+                },
+                "lengths": {
+                    "ras": 3287,
+                    "network": null,
+                    "network_to_ras_ratio": null
+                },
+                "coverage": {
+                    "start": 2.33,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906208",
+                    "overlap": 2965
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905828": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 105.79,
+                "max_elevation": 146.6,
+                "xs_id": 189009.2
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 103.26,
+                "max_elevation": 141.2,
+                "xs_id": 186994.1
+            },
+            "eclipsed": false,
+            "low_flow": 607,
+            "high_flow": 5289,
+            "network_to_id": "11905834",
+            "ds_slope": 0.00022,
+            "ds_slope_source_nwm_id": "11906208",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 21,
+                        "std": 20,
+                        "min": 4,
+                        "25%": 7,
+                        "50%": 16,
+                        "75%": 29,
+                        "max": 47
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 22,
+                        "std": 24,
+                        "min": 2,
+                        "25%": 3,
+                        "50%": 17,
+                        "75%": 37,
+                        "max": 53
+                    }
+                },
+                "lengths": {
+                    "ras": 2019,
+                    "network": null,
+                    "network_to_ras_ratio": null
+                },
+                "coverage": {
+                    "start": 0.11,
+                    "end": 0.11
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906208",
+                    "overlap": 644
+                },
+                {
+                    "id": "11905834",
+                    "overlap": 4
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905820": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.3,
+                "max_elevation": 146.72,
+                "xs_id": 193176.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 105.79,
+                "max_elevation": 146.6,
+                "xs_id": 189009.2
+            },
+            "eclipsed": false,
+            "low_flow": 585,
+            "high_flow": 4501,
+            "network_to_id": "11905828",
+            "ds_slope": 0.00025,
+            "ds_slope_source_nwm_id": "11905828",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 6,
+                        "mean": 24,
+                        "std": 15,
+                        "min": 3,
+                        "25%": 17,
+                        "50%": 26,
+                        "75%": 28,
+                        "max": 47
+                    },
+                    "thalweg_offset": {
+                        "count": 6,
+                        "mean": 27,
+                        "std": 17,
+                        "min": 4,
+                        "25%": 17,
+                        "50%": 30,
+                        "75%": 33,
+                        "max": 53
+                    }
+                },
+                "lengths": {
+                    "ras": 4188,
+                    "network": 4030,
+                    "network_to_ras_ratio": 0.96
+                },
+                "coverage": {
+                    "start": 0.0,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905828",
+                    "overlap": 265
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906198": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.3,
+                "max_elevation": 141.81,
+                "xs_id": 193854.4
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.3,
+                "max_elevation": 146.72,
+                "xs_id": 193176.6
+            },
+            "eclipsed": false,
+            "low_flow": 312,
+            "high_flow": 2506,
+            "network_to_id": "11905820",
+            "ds_slope": 0.00166,
+            "ds_slope_source_nwm_id": "11905820",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 131,
+                        "std": 182,
+                        "min": 3,
+                        "25%": 67,
+                        "50%": 131,
+                        "75%": 196,
+                        "max": 260
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 133,
+                        "std": 183,
+                        "min": 4,
+                        "25%": 68,
+                        "50%": 133,
+                        "75%": 198,
+                        "max": 262
+                    }
+                },
+                "lengths": {
+                    "ras": 679,
+                    "network": 1119,
+                    "network_to_ras_ratio": 1.65
+                },
+                "coverage": {
+                    "start": 0.04,
+                    "end": 1.0
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905820",
+                    "overlap": 3
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906196": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.95,
+                "max_elevation": 156.24,
+                "xs_id": 194817.8
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.3,
+                "max_elevation": 141.81,
+                "xs_id": 193854.4
+            },
+            "eclipsed": false,
+            "low_flow": 304,
+            "high_flow": 2554,
+            "network_to_id": "11906198",
+            "ds_slope": 0.00234,
+            "ds_slope_source_nwm_id": "11906198",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 193,
+                        "std": 95,
+                        "min": 126,
+                        "25%": 160,
+                        "50%": 193,
+                        "75%": 227,
+                        "max": 260
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 194,
+                        "std": 97,
+                        "min": 125,
+                        "25%": 159,
+                        "50%": 194,
+                        "75%": 228,
+                        "max": 262
+                    }
+                },
+                "lengths": {
+                    "ras": 962,
+                    "network": 934,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.4,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906198",
+                    "overlap": 46
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905796": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 113.45,
+                "max_elevation": 160.38,
+                "xs_id": 195583.1
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 112.95,
+                "max_elevation": 156.24,
+                "xs_id": 194817.8
+            },
+            "eclipsed": false,
+            "low_flow": 300,
+            "high_flow": 2812,
+            "network_to_id": "11906196",
+            "ds_slope": 0.00177,
+            "ds_slope_source_nwm_id": "11906196",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 118,
+                        "std": 12,
+                        "min": 109,
+                        "25%": 113,
+                        "50%": 118,
+                        "75%": 122,
+                        "max": 126
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 116,
+                        "std": 13,
+                        "min": 107,
+                        "25%": 112,
+                        "50%": 116,
+                        "75%": 121,
+                        "max": 125
+                    }
+                },
+                "lengths": {
+                    "ras": 765,
+                    "network": 638,
+                    "network_to_ras_ratio": 0.83
+                },
+                "coverage": {
+                    "start": 0.92,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906196",
+                    "overlap": 590
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906190": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 127.07,
+                "max_elevation": 179.11,
+                "xs_id": 208205.5
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 113.45,
+                "max_elevation": 160.38,
+                "xs_id": 195583.1
+            },
+            "eclipsed": false,
+            "low_flow": 321,
+            "high_flow": 3082,
+            "network_to_id": "11905796",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11905796",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 26,
+                        "mean": 15,
+                        "std": 22,
+                        "min": 0,
+                        "25%": 3,
+                        "50%": 6,
+                        "75%": 23,
+                        "max": 109
+                    },
+                    "thalweg_offset": {
+                        "count": 26,
+                        "mean": 19,
+                        "std": 20,
+                        "min": 1,
+                        "25%": 9,
+                        "50%": 14,
+                        "75%": 23,
+                        "max": 107
+                    }
+                },
+                "lengths": {
+                    "ras": 12636,
+                    "network": 12325,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.08,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905796",
+                    "overlap": 559
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905756": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 134.3,
+                "max_elevation": 221.64,
+                "xs_id": 211665.0
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 127.07,
+                "max_elevation": 179.11,
+                "xs_id": 208205.5
+            },
+            "eclipsed": false,
+            "low_flow": 213,
+            "high_flow": 1802,
+            "network_to_id": "11906190",
+            "ds_slope": 0.0012,
+            "ds_slope_source_nwm_id": "11906190",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 7,
+                        "mean": 10,
+                        "std": 8,
+                        "min": 0,
+                        "25%": 6,
+                        "50%": 11,
+                        "75%": 12,
+                        "max": 24
+                    },
+                    "thalweg_offset": {
+                        "count": 7,
+                        "mean": 16,
+                        "std": 7,
+                        "min": 7,
+                        "25%": 10,
+                        "50%": 16,
+                        "75%": 22,
+                        "max": 25
+                    }
+                },
+                "lengths": {
+                    "ras": 3435,
+                    "network": 3440,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.3,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906190",
+                    "overlap": 962
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905746": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 155.57,
+                "max_elevation": 271.48,
+                "xs_id": 216363.5
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 134.3,
+                "max_elevation": 221.64,
+                "xs_id": 211665.0
+            },
+            "eclipsed": false,
+            "low_flow": 105,
+            "high_flow": 1811,
+            "network_to_id": "11905756",
+            "gage": "01592500",
+            "gage_url": "https://waterdata.usgs.gov/nwis/uv?site_no=01592500&legacy=1",
+            "ds_slope": 0.00521,
+            "ds_slope_source_nwm_id": "11905756",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 8,
+                        "mean": 14,
+                        "std": 10,
+                        "min": 5,
+                        "25%": 7,
+                        "50%": 9,
+                        "75%": 22,
+                        "max": 29
+                    },
+                    "thalweg_offset": {
+                        "count": 8,
+                        "mean": 15,
+                        "std": 9,
+                        "min": 5,
+                        "25%": 6,
+                        "50%": 14,
+                        "75%": 21,
+                        "max": 29
+                    }
+                },
+                "lengths": {
+                    "ras": 4680,
+                    "network": 4562,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.15,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905756",
+                    "overlap": 1076
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905994": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 55.7,
+                "max_elevation": 102.27,
+                "xs_id": 148278.9
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 50.2,
+                "max_elevation": 114.55,
+                "xs_id": 147072.6
+            },
+            "eclipsed": false,
+            "low_flow": 629,
+            "high_flow": 5476,
+            "network_to_id": "11906000",
+            "ds_slope": 0.00162,
+            "ds_slope_source_nwm_id": "11906304",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 11,
+                        "std": 9,
+                        "min": 4,
+                        "25%": 7,
+                        "50%": 11,
+                        "75%": 14,
+                        "max": 17
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 21,
+                        "std": 4,
+                        "min": 18,
+                        "25%": 20,
+                        "50%": 21,
+                        "75%": 22,
+                        "max": 24
+                    }
+                },
+                "lengths": {
+                    "ras": 1206,
+                    "network": 1052,
+                    "network_to_ras_ratio": 0.87
+                },
+                "coverage": {
+                    "start": 0.67,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906304",
+                    "overlap": 46
+                }
+            ],
+            "eclipsed_reaches": [
+                "11906000"
+            ]
+        },
+        "11905984": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 62.6,
+                "max_elevation": 100.3,
+                "xs_id": 155014.3
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 61.6,
+                "max_elevation": 97.16,
+                "xs_id": 153499.9
+            },
+            "eclipsed": false,
+            "low_flow": 630,
+            "high_flow": 5643,
+            "network_to_id": "11906290",
+            "ds_slope": 0.00085,
+            "ds_slope_source_nwm_id": "11906290",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 60,
+                        "std": 84,
+                        "min": 1,
+                        "25%": 31,
+                        "50%": 60,
+                        "75%": 90,
+                        "max": 120
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 60,
+                        "std": 70,
+                        "min": 10,
+                        "25%": 35,
+                        "50%": 60,
+                        "75%": 85,
+                        "max": 110
+                    }
+                },
+                "lengths": {
+                    "ras": 1513,
+                    "network": 2235,
+                    "network_to_ras_ratio": 1.48
+                },
+                "coverage": {
+                    "start": 0.08,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906290",
+                    "overlap": 871
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906030": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 43.8,
+                "max_elevation": 83.0,
+                "xs_id": 140356.0
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 41.3,
+                "max_elevation": 82.06,
+                "xs_id": 137262.7
+            },
+            "eclipsed": false,
+            "low_flow": 626,
+            "high_flow": 5436,
+            "network_to_id": "11906034",
+            "ds_slope": 0.00073,
+            "ds_slope_source_nwm_id": "11906034",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 20,
+                        "std": 11,
+                        "min": 8,
+                        "25%": 14,
+                        "50%": 20,
+                        "75%": 26,
+                        "max": 31
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 17,
+                        "std": 15,
+                        "min": 2,
+                        "25%": 10,
+                        "50%": 17,
+                        "75%": 24,
+                        "max": 32
+                    }
+                },
+                "lengths": {
+                    "ras": 3104,
+                    "network": 2889,
+                    "network_to_ras_ratio": 0.93
+                },
+                "coverage": {
+                    "start": 0.04,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906034",
+                    "overlap": 58
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906036": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 40.3,
+                "max_elevation": 68.8,
+                "xs_id": 136140.3
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 39.1,
+                "max_elevation": 81.69,
+                "xs_id": 134652.2
+            },
+            "eclipsed": false,
+            "low_flow": 646,
+            "high_flow": 5523,
+            "network_to_id": "11906038",
+            "ds_slope": 0.00286,
+            "ds_slope_source_nwm_id": "11906046",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 12,
+                        "std": 4,
+                        "min": 6,
+                        "25%": 12,
+                        "50%": 14,
+                        "75%": 14,
+                        "max": 15
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 18,
+                        "std": 7,
+                        "min": 7,
+                        "25%": 16,
+                        "50%": 20,
+                        "75%": 21,
+                        "max": 23
+                    }
+                },
+                "lengths": {
+                    "ras": 1485,
+                    "network": 1614,
+                    "network_to_ras_ratio": 1.09
+                },
+                "coverage": {
+                    "start": 0.07,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906046",
+                    "overlap": 7
+                }
+            ],
+            "eclipsed_reaches": [
+                "11906038"
+            ]
+        },
+        "11906232": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 90.1,
+                "max_elevation": 108.89,
+                "xs_id": 176090.0
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 85.1,
+                "max_elevation": 117.87,
+                "xs_id": 173461.9
+            },
+            "eclipsed": false,
+            "low_flow": 638,
+            "high_flow": 5983,
+            "network_to_id": "11906240",
+            "ds_slope": 0.00036,
+            "ds_slope_source_nwm_id": "11906240",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 120,
+                        "std": 174,
+                        "min": 5,
+                        "25%": 19,
+                        "50%": 34,
+                        "75%": 177,
+                        "max": 320
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 126,
+                        "std": 182,
+                        "min": 3,
+                        "25%": 22,
+                        "50%": 40,
+                        "75%": 188,
+                        "max": 336
+                    }
+                },
+                "lengths": {
+                    "ras": 2614,
+                    "network": 2376,
+                    "network_to_ras_ratio": 0.91
+                },
+                "coverage": {
+                    "start": 0.26,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906240",
+                    "overlap": 630
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11905976": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 63.5,
+                "max_elevation": 104.21,
+                "xs_id": 156362.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 62.6,
+                "max_elevation": 100.3,
+                "xs_id": 155014.3
+            },
+            "eclipsed": false,
+            "low_flow": 623,
+            "high_flow": 5551,
+            "network_to_id": "11905984",
+            "ds_slope": 0.0026,
+            "ds_slope_source_nwm_id": "11905984",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 10,
+                        "std": 13,
+                        "min": 1,
+                        "25%": 6,
+                        "50%": 10,
+                        "75%": 15,
+                        "max": 20
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 10,
+                        "std": 0,
+                        "min": 10,
+                        "25%": 10,
+                        "50%": 10,
+                        "75%": 10,
+                        "max": 10
+                    }
+                },
+                "lengths": {
+                    "ras": 1346,
+                    "network": 1225,
+                    "network_to_ras_ratio": 0.91
+                },
+                "coverage": {
+                    "start": 0.21,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905984",
+                    "overlap": 121
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906048": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 37.2,
+                "max_elevation": 70.85,
+                "xs_id": 132261.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 36.4,
+                "max_elevation": 65.54,
+                "xs_id": 131156.0
+            },
+            "eclipsed": false,
+            "low_flow": 694,
+            "high_flow": 6420,
+            "network_to_id": "11906328",
+            "ds_slope": 0.00096,
+            "ds_slope_source_nwm_id": "11906328",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 23,
+                        "std": 23,
+                        "min": 7,
+                        "25%": 15,
+                        "50%": 23,
+                        "75%": 31,
+                        "max": 40
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 24,
+                        "std": 22,
+                        "min": 8,
+                        "25%": 16,
+                        "50%": 24,
+                        "75%": 31,
+                        "max": 39
+                    }
+                },
+                "lengths": {
+                    "ras": 1100,
+                    "network": 1195,
+                    "network_to_ras_ratio": 1.09
+                },
+                "coverage": {
+                    "start": 0.2,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906328",
+                    "overlap": 52
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906046": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 39.1,
+                "max_elevation": 81.69,
+                "xs_id": 134652.2
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 37.2,
+                "max_elevation": 70.85,
+                "xs_id": 132261.7
+            },
+            "eclipsed": false,
+            "low_flow": 687,
+            "high_flow": 6102,
+            "network_to_id": "11906048",
+            "ds_slope": 0.00149,
+            "ds_slope_source_nwm_id": "11906048",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 11,
+                        "std": 8,
+                        "min": 6,
+                        "25%": 6,
+                        "50%": 7,
+                        "75%": 14,
+                        "max": 21
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 13,
+                        "std": 9,
+                        "min": 7,
+                        "25%": 8,
+                        "50%": 8,
+                        "75%": 16,
+                        "max": 23
+                    }
+                },
+                "lengths": {
+                    "ras": 2394,
+                    "network": 2183,
+                    "network_to_ras_ratio": 0.91
+                },
+                "coverage": {
+                    "start": 0.0,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906048",
+                    "overlap": 285
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906304": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 50.2,
+                "max_elevation": 114.55,
+                "xs_id": 147072.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 43.8,
+                "max_elevation": 83.0,
+                "xs_id": 140356.0
+            },
+            "eclipsed": false,
+            "low_flow": 628,
+            "high_flow": 5516,
+            "network_to_id": "11906030",
+            "ds_slope": 0.00027,
+            "ds_slope_source_nwm_id": "11906030",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 9,
+                        "mean": 9,
+                        "std": 7,
+                        "min": 2,
+                        "25%": 4,
+                        "50%": 5,
+                        "75%": 15,
+                        "max": 22
+                    },
+                    "thalweg_offset": {
+                        "count": 9,
+                        "mean": 9,
+                        "std": 8,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 6,
+                        "75%": 14,
+                        "max": 22
+                    }
+                },
+                "lengths": {
+                    "ras": 6726,
+                    "network": 6523,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.01,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11906030",
+                    "overlap": 119
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906290": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 61.6,
+                "max_elevation": 97.16,
+                "xs_id": 153499.9
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 58.8,
+                "max_elevation": 82.0,
+                "xs_id": 149785.6
+            },
+            "eclipsed": false,
+            "low_flow": 628,
+            "high_flow": 5576,
+            "network_to_id": "11905990",
+            "ds_slope": 0.00074,
+            "ds_slope_source_nwm_id": "11905990",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 68,
+                        "std": 57,
+                        "min": 6,
+                        "25%": 42,
+                        "50%": 78,
+                        "75%": 99,
+                        "max": 120
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 63,
+                        "std": 46,
+                        "min": 18,
+                        "25%": 40,
+                        "50%": 62,
+                        "75%": 86,
+                        "max": 110
+                    }
+                },
+                "lengths": {
+                    "ras": 3717,
+                    "network": 4401,
+                    "network_to_ras_ratio": 1.18
+                },
+                "coverage": {
+                    "start": 0.17,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905990",
+                    "overlap": 207
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906282": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 71.9,
+                "max_elevation": 166.1,
+                "xs_id": 161033.5
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 63.5,
+                "max_elevation": 104.21,
+                "xs_id": 156362.6
+            },
+            "eclipsed": false,
+            "low_flow": 619,
+            "high_flow": 5711,
+            "network_to_id": "11905974",
+            "ds_slope": 0.00205,
+            "ds_slope_source_nwm_id": "11905976",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 7,
+                        "std": 8,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 5,
+                        "75%": 7,
+                        "max": 20
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 7,
+                        "std": 5,
+                        "min": 2,
+                        "25%": 2,
+                        "50%": 9,
+                        "75%": 10,
+                        "max": 14
+                    }
+                },
+                "lengths": {
+                    "ras": 4660,
+                    "network": 4580,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.22,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905976",
+                    "overlap": 288
+                }
+            ],
+            "eclipsed_reaches": [
+                "11905974"
+            ]
+        },
+        "11906240": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 85.1,
+                "max_elevation": 117.87,
+                "xs_id": 173461.9
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 77.2,
+                "max_elevation": 133.77,
+                "xs_id": 168859.9
+            },
+            "eclipsed": false,
+            "low_flow": 633,
+            "high_flow": 5914,
+            "network_to_id": "11905886",
+            "ds_slope": 0.00089,
+            "ds_slope_source_nwm_id": "11905914",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 411,
+                        "std": 91,
+                        "min": 314,
+                        "25%": 320,
+                        "50%": 427,
+                        "75%": 481,
+                        "max": 514
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 421,
+                        "std": 92,
+                        "min": 320,
+                        "25%": 336,
+                        "50%": 428,
+                        "75%": 490,
+                        "max": 530
+                    }
+                },
+                "lengths": {
+                    "ras": 4608,
+                    "network": 4049,
+                    "network_to_ras_ratio": 0.88
+                },
+                "coverage": {
+                    "start": 0.17,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11905914",
+                    "overlap": 817
+                }
+            ],
+            "eclipsed_reaches": [
+                "11905886"
+            ]
+        },
+        "11908588": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -8.5,
+                "max_elevation": 53.21,
+                "xs_id": 26469.46
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -16.2,
+                "max_elevation": 70.28,
+                "xs_id": 21021.22
+            },
+            "eclipsed": false,
+            "low_flow": 1523,
+            "high_flow": 22888,
+            "network_to_id": "11908594",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908588",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 18,
+                        "std": 15,
+                        "min": 0,
+                        "25%": 12,
+                        "50%": 14,
+                        "75%": 25,
+                        "max": 41
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 68,
+                        "std": 25,
+                        "min": 29,
+                        "25%": 64,
+                        "50%": 67,
+                        "75%": 89,
+                        "max": 92
+                    }
+                },
+                "lengths": {
+                    "ras": 5464,
+                    "network": 5292,
+                    "network_to_ras_ratio": 0.97
+                },
+                "coverage": {
+                    "start": 0.08,
+                    "end": 0.67
+                }
+            },
+            "overlapped_reaches": [],
+            "eclipsed_reaches": []
+        },
+        "11908576": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.3,
+                "max_elevation": 62.95,
+                "xs_id": 39893.46
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -10.6,
+                "max_elevation": 93.12,
+                "xs_id": 32805.59
+            },
+            "eclipsed": false,
+            "low_flow": 1513,
+            "high_flow": 24987,
+            "network_to_id": "11908578",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908582",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 9,
+                        "mean": 8,
+                        "std": 8,
+                        "min": 0,
+                        "25%": 2,
+                        "50%": 3,
+                        "75%": 12,
+                        "max": 23
+                    },
+                    "thalweg_offset": {
+                        "count": 9,
+                        "mean": 32,
+                        "std": 15,
+                        "min": 1,
+                        "25%": 27,
+                        "50%": 30,
+                        "75%": 41,
+                        "max": 54
+                    }
+                },
+                "lengths": {
+                    "ras": 7086,
+                    "network": 6999,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.05,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908582",
+                    "overlap": 534
+                }
+            ],
+            "eclipsed_reaches": [
+                "11908578"
+            ]
+        },
+        "11908572": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -1.0,
+                "max_elevation": 25.3,
+                "xs_id": 41827.22
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.3,
+                "max_elevation": 62.95,
+                "xs_id": 39893.46
+            },
+            "eclipsed": false,
+            "low_flow": 1524,
+            "high_flow": 25603,
+            "network_to_id": "11908576",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908576",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 11,
+                        "std": 10,
+                        "min": 3,
+                        "25%": 5,
+                        "50%": 7,
+                        "75%": 14,
+                        "max": 22
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 41,
+                        "std": 19,
+                        "min": 27,
+                        "25%": 30,
+                        "50%": 33,
+                        "75%": 48,
+                        "max": 63
+                    }
+                },
+                "lengths": {
+                    "ras": 1950,
+                    "network": 1966,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.22,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908576",
+                    "overlap": 297
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908562": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.2,
+                "max_elevation": 87.88,
+                "xs_id": 44258.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -6.8,
+                "max_elevation": 58.8,
+                "xs_id": 42465.83
+            },
+            "eclipsed": false,
+            "low_flow": 1524,
+            "high_flow": 25642,
+            "network_to_id": "11908566",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908566",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 35,
+                        "std": 18,
+                        "min": 23,
+                        "25%": 25,
+                        "50%": 28,
+                        "75%": 41,
+                        "max": 55
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 36,
+                        "std": 13,
+                        "min": 28,
+                        "25%": 29,
+                        "50%": 29,
+                        "75%": 40,
+                        "max": 51
+                    }
+                },
+                "lengths": {
+                    "ras": 1806,
+                    "network": 1722,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.36,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908566",
+                    "overlap": 404
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908566": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -6.8,
+                "max_elevation": 58.8,
+                "xs_id": 42465.83
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -1.0,
+                "max_elevation": 25.3,
+                "xs_id": 41827.22
+            },
+            "eclipsed": false,
+            "low_flow": 1525,
+            "high_flow": 25674,
+            "network_to_id": "11908572",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908572",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 38,
+                        "std": 24,
+                        "min": 22,
+                        "25%": 30,
+                        "50%": 38,
+                        "75%": 47,
+                        "max": 55
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 57,
+                        "std": 8,
+                        "min": 51,
+                        "25%": 54,
+                        "50%": 57,
+                        "75%": 60,
+                        "max": 63
+                    }
+                },
+                "lengths": {
+                    "ras": 644,
+                    "network": 678,
+                    "network_to_ras_ratio": 1.05
+                },
+                "coverage": {
+                    "start": 0.66,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908572",
+                    "overlap": 474
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907892": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.3,
+                "max_elevation": 54.01,
+                "xs_id": 51040.86
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -6.6,
+                "max_elevation": 56.39,
+                "xs_id": 49806.06
+            },
+            "eclipsed": false,
+            "low_flow": 1523,
+            "high_flow": 25815,
+            "network_to_id": "11908554",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908554",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 11,
+                        "std": 0,
+                        "min": 11,
+                        "25%": 11,
+                        "50%": 11,
+                        "75%": 11,
+                        "max": 11
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 14,
+                        "std": 2,
+                        "min": 12,
+                        "25%": 13,
+                        "50%": 14,
+                        "75%": 14,
+                        "max": 15
+                    }
+                },
+                "lengths": {
+                    "ras": 1241,
+                    "network": 1248,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.4,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908554",
+                    "overlap": 314
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908554": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -6.6,
+                "max_elevation": 56.39,
+                "xs_id": 49806.06
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.0,
+                "max_elevation": 51.18,
+                "xs_id": 45507.47
+            },
+            "eclipsed": false,
+            "low_flow": 1518,
+            "high_flow": 25520,
+            "network_to_id": "11908560",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908560",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 16,
+                        "std": 4,
+                        "min": 11,
+                        "25%": 15,
+                        "50%": 17,
+                        "75%": 18,
+                        "max": 21
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 4,
+                        "std": 5,
+                        "min": 0,
+                        "25%": 0,
+                        "50%": 0,
+                        "75%": 7,
+                        "max": 12
+                    }
+                },
+                "lengths": {
+                    "ras": 4324,
+                    "network": 4238,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.09,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908560",
+                    "overlap": 1020
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908560": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.0,
+                "max_elevation": 51.18,
+                "xs_id": 45507.47
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.2,
+                "max_elevation": 87.88,
+                "xs_id": 44258.6
+            },
+            "eclipsed": false,
+            "low_flow": 1518,
+            "high_flow": 25315,
+            "network_to_id": "11908562",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908562",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 24,
+                        "std": 5,
+                        "min": 21,
+                        "25%": 23,
+                        "50%": 24,
+                        "75%": 26,
+                        "max": 28
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 18,
+                        "std": 16,
+                        "min": 7,
+                        "25%": 12,
+                        "50%": 18,
+                        "75%": 24,
+                        "max": 29
+                    }
+                },
+                "lengths": {
+                    "ras": 1260,
+                    "network": 1277,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.65,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908562",
+                    "overlap": 730
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907880": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -8.5,
+                "max_elevation": 64.68,
+                "xs_id": 59049.43
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.3,
+                "max_elevation": 54.01,
+                "xs_id": 51040.86
+            },
+            "eclipsed": false,
+            "low_flow": 1511,
+            "high_flow": 24779,
+            "network_to_id": "11907892",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907892",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 9,
+                        "mean": 11,
+                        "std": 4,
+                        "min": 6,
+                        "25%": 10,
+                        "50%": 10,
+                        "75%": 13,
+                        "max": 17
+                    },
+                    "thalweg_offset": {
+                        "count": 9,
+                        "mean": 6,
+                        "std": 6,
+                        "min": 0,
+                        "25%": 2,
+                        "50%": 3,
+                        "75%": 11,
+                        "max": 17
+                    }
+                },
+                "lengths": {
+                    "ras": 8039,
+                    "network": 7981,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.02,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907892",
+                    "overlap": 625
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907860": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.6,
+                "max_elevation": 67.85,
+                "xs_id": 59680.21
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -8.5,
+                "max_elevation": 64.68,
+                "xs_id": 59049.43
+            },
+            "eclipsed": false,
+            "low_flow": 1523,
+            "high_flow": 27264,
+            "network_to_id": "11907880",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907880",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 8,
+                        "std": 3,
+                        "min": 6,
+                        "25%": 7,
+                        "50%": 8,
+                        "75%": 10,
+                        "max": 11
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 3,
+                        "std": 0,
+                        "min": 3,
+                        "25%": 3,
+                        "50%": 3,
+                        "75%": 3,
+                        "max": 3
+                    }
+                },
+                "lengths": {
+                    "ras": 636,
+                    "network": 632,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.67,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907880",
+                    "overlap": 122
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907854": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.7,
+                "max_elevation": 74.83,
+                "xs_id": 60994.13
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.6,
+                "max_elevation": 67.85,
+                "xs_id": 59680.21
+            },
+            "eclipsed": false,
+            "low_flow": 1513,
+            "high_flow": 27213,
+            "network_to_id": "11907860",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907860",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 7,
+                        "std": 5,
+                        "min": 4,
+                        "25%": 6,
+                        "50%": 7,
+                        "75%": 9,
+                        "max": 11
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 8,
+                        "std": 7,
+                        "min": 3,
+                        "25%": 5,
+                        "50%": 8,
+                        "75%": 10,
+                        "max": 13
+                    }
+                },
+                "lengths": {
+                    "ras": 1312,
+                    "network": 1320,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.61,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907860",
+                    "overlap": 1023
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907848": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.9,
+                "max_elevation": 73.85,
+                "xs_id": 63352.65
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.7,
+                "max_elevation": 74.83,
+                "xs_id": 60994.13
+            },
+            "eclipsed": false,
+            "low_flow": 1513,
+            "high_flow": 27120,
+            "network_to_id": "11907854",
+            "ds_slope": 0.00487,
+            "ds_slope_source_nwm_id": "11907854",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 3,
+                        "std": 2,
+                        "min": 0,
+                        "25%": 2,
+                        "50%": 3,
+                        "75%": 4,
+                        "max": 4
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 10,
+                        "std": 3,
+                        "min": 6,
+                        "25%": 8,
+                        "50%": 10,
+                        "75%": 13,
+                        "max": 13
+                    }
+                },
+                "lengths": {
+                    "ras": 2378,
+                    "network": 2383,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.2,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907854",
+                    "overlap": 463
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907838": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.9,
+                "max_elevation": 75.34,
+                "xs_id": 64024.26
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -7.9,
+                "max_elevation": 73.85,
+                "xs_id": 63352.65
+            },
+            "eclipsed": false,
+            "low_flow": 1485,
+            "high_flow": 27400,
+            "network_to_id": "11907848",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907848",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 2,
+                        "mean": 15,
+                        "std": 21,
+                        "min": 0,
+                        "25%": 8,
+                        "50%": 15,
+                        "75%": 22,
+                        "max": 30
+                    },
+                    "thalweg_offset": {
+                        "count": 2,
+                        "mean": 24,
+                        "std": 23,
+                        "min": 8,
+                        "25%": 16,
+                        "50%": 24,
+                        "75%": 32,
+                        "max": 40
+                    }
+                },
+                "lengths": {
+                    "ras": 674,
+                    "network": 642,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.55,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907848",
+                    "overlap": 485
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907832": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -2.8,
+                "max_elevation": 58.98,
+                "xs_id": 69955.36
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -5.9,
+                "max_elevation": 75.34,
+                "xs_id": 64024.26
+            },
+            "eclipsed": false,
+            "low_flow": 1474,
+            "high_flow": 27379,
+            "network_to_id": "11907838",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907838",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 8,
+                        "mean": 12,
+                        "std": 8,
+                        "min": 4,
+                        "25%": 7,
+                        "50%": 10,
+                        "75%": 13,
+                        "max": 30
+                    },
+                    "thalweg_offset": {
+                        "count": 8,
+                        "mean": 14,
+                        "std": 12,
+                        "min": 0,
+                        "25%": 8,
+                        "50%": 12,
+                        "75%": 16,
+                        "max": 40
+                    }
+                },
+                "lengths": {
+                    "ras": 5952,
+                    "network": 5823,
+                    "network_to_ras_ratio": 0.98
+                },
+                "coverage": {
+                    "start": 0.16,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907838",
+                    "overlap": 194
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907806": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 4.7,
+                "max_elevation": 64.61,
+                "xs_id": 79897.28
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": -2.8,
+                "max_elevation": 58.98,
+                "xs_id": 69955.36
+            },
+            "eclipsed": false,
+            "low_flow": 1517,
+            "high_flow": 29428,
+            "network_to_id": "11907832",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11907832",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 12,
+                        "mean": 16,
+                        "std": 11,
+                        "min": 1,
+                        "25%": 9,
+                        "50%": 18,
+                        "75%": 21,
+                        "max": 39
+                    },
+                    "thalweg_offset": {
+                        "count": 12,
+                        "mean": 29,
+                        "std": 23,
+                        "min": 3,
+                        "25%": 15,
+                        "50%": 24,
+                        "75%": 39,
+                        "max": 77
+                    }
+                },
+                "lengths": {
+                    "ras": 9961,
+                    "network": 9332,
+                    "network_to_ras_ratio": 0.94
+                },
+                "coverage": {
+                    "start": 0.09,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907832",
+                    "overlap": 1088
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907782": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 5.1,
+                "max_elevation": 95.95,
+                "xs_id": 86341.97
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 4.7,
+                "max_elevation": 64.61,
+                "xs_id": 79897.28
+            },
+            "eclipsed": false,
+            "low_flow": 1543,
+            "high_flow": 30121,
+            "network_to_id": "11907806",
+            "ds_slope": 0.00034,
+            "ds_slope_source_nwm_id": "11907806",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 6,
+                        "mean": 20,
+                        "std": 19,
+                        "min": 3,
+                        "25%": 5,
+                        "50%": 14,
+                        "75%": 27,
+                        "max": 52
+                    },
+                    "thalweg_offset": {
+                        "count": 6,
+                        "mean": 30,
+                        "std": 29,
+                        "min": 0,
+                        "25%": 11,
+                        "50%": 20,
+                        "75%": 44,
+                        "max": 77
+                    }
+                },
+                "lengths": {
+                    "ras": 6458,
+                    "network": 6218,
+                    "network_to_ras_ratio": 0.96
+                },
+                "coverage": {
+                    "start": 0.09,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907806",
+                    "overlap": 828
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908324": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 3.9,
+                "max_elevation": 68.46,
+                "xs_id": 92395.85
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 5.1,
+                "max_elevation": 95.95,
+                "xs_id": 86341.97
+            },
+            "eclipsed": false,
+            "low_flow": 1517,
+            "high_flow": 29907,
+            "network_to_id": "11907774",
+            "ds_slope": 0.0005,
+            "ds_slope_source_nwm_id": "11907782",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 7,
+                        "std": 5,
+                        "min": 3,
+                        "25%": 4,
+                        "50%": 5,
+                        "75%": 8,
+                        "max": 14
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 7,
+                        "std": 3,
+                        "min": 3,
+                        "25%": 6,
+                        "50%": 8,
+                        "75%": 10,
+                        "max": 10
+                    }
+                },
+                "lengths": {
+                    "ras": 6048,
+                    "network": 5968,
+                    "network_to_ras_ratio": 0.99
+                },
+                "coverage": {
+                    "start": 0.17,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907782",
+                    "overlap": 533
+                }
+            ],
+            "eclipsed_reaches": [
+                "11907774"
+            ]
+        },
+        "11908316": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 7.0,
+                "max_elevation": 62.04,
+                "xs_id": 97274.14
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 3.9,
+                "max_elevation": 68.46,
+                "xs_id": 92395.85
+            },
+            "eclipsed": false,
+            "low_flow": 1531,
+            "high_flow": 31046,
+            "network_to_id": "11908324",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908324",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 5,
+                        "mean": 15,
+                        "std": 13,
+                        "min": 3,
+                        "25%": 4,
+                        "50%": 12,
+                        "75%": 20,
+                        "max": 34
+                    },
+                    "thalweg_offset": {
+                        "count": 5,
+                        "mean": 17,
+                        "std": 15,
+                        "min": 3,
+                        "25%": 3,
+                        "50%": 16,
+                        "75%": 27,
+                        "max": 37
+                    }
+                },
+                "lengths": {
+                    "ras": 4888,
+                    "network": 4869,
+                    "network_to_ras_ratio": 1.0
+                },
+                "coverage": {
+                    "start": 0.03,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908324",
+                    "overlap": 595
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907762": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.38,
+                "max_elevation": 66.53,
+                "xs_id": 101166.3
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 7.0,
+                "max_elevation": 62.04,
+                "xs_id": 97274.14
+            },
+            "eclipsed": false,
+            "low_flow": 1563,
+            "high_flow": 35039,
+            "network_to_id": "11907764",
+            "ds_slope": 1e-05,
+            "ds_slope_source_nwm_id": "11908316",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 10,
+                        "mean": 18,
+                        "std": 17,
+                        "min": 4,
+                        "25%": 8,
+                        "50%": 11,
+                        "75%": 19,
+                        "max": 57
+                    },
+                    "thalweg_offset": {
+                        "count": 10,
+                        "mean": 19,
+                        "std": 13,
+                        "min": 5,
+                        "25%": 12,
+                        "50%": 15,
+                        "75%": 25,
+                        "max": 49
+                    }
+                },
+                "lengths": {
+                    "ras": 3914,
+                    "network": 3962,
+                    "network_to_ras_ratio": 1.01
+                },
+                "coverage": {
+                    "start": 0.04,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908316",
+                    "overlap": 135
+                }
+            ],
+            "eclipsed_reaches": [
+                "11907764"
+            ]
+        },
+        "11907758": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 8.7,
+                "max_elevation": 97.41,
+                "xs_id": 106061.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.38,
+                "max_elevation": 66.53,
+                "xs_id": 101166.3
+            },
+            "eclipsed": false,
+            "low_flow": 1562,
+            "high_flow": 36135,
+            "network_to_id": "11907762",
+            "gage": "01594440",
+            "gage_url": "https://waterdata.usgs.gov/nwis/uv?site_no=01594440&legacy=1",
+            "ds_slope": 0.00011,
+            "ds_slope_source_nwm_id": "11907762",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 7,
+                        "mean": 7,
+                        "std": 7,
+                        "min": 2,
+                        "25%": 3,
+                        "50%": 4,
+                        "75%": 10,
+                        "max": 18
+                    },
+                    "thalweg_offset": {
+                        "count": 7,
+                        "mean": 8,
+                        "std": 5,
+                        "min": 1,
+                        "25%": 5,
+                        "50%": 8,
+                        "75%": 11,
+                        "max": 14
+                    }
+                },
+                "lengths": {
+                    "ras": 4916,
+                    "network": 4554,
+                    "network_to_ras_ratio": 0.93
+                },
+                "coverage": {
+                    "start": 0.17,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907762",
+                    "overlap": 134
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11907746": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.5,
+                "max_elevation": 93.12,
+                "xs_id": 110321.2
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 8.7,
+                "max_elevation": 97.41,
+                "xs_id": 106061.7
+            },
+            "eclipsed": false,
+            "low_flow": 1565,
+            "high_flow": 36606,
+            "network_to_id": "11907758",
+            "ds_slope": 0.00015,
+            "ds_slope_source_nwm_id": "11907758",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 15,
+                        "std": 16,
+                        "min": 3,
+                        "25%": 3,
+                        "50%": 11,
+                        "75%": 23,
+                        "max": 36
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 13,
+                        "std": 15,
+                        "min": 1,
+                        "25%": 1,
+                        "50%": 12,
+                        "75%": 25,
+                        "max": 29
+                    }
+                },
+                "lengths": {
+                    "ras": 4276,
+                    "network": 4105,
+                    "network_to_ras_ratio": 0.96
+                },
+                "coverage": {
+                    "start": 0.24,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907758",
+                    "overlap": 933
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908300": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.4,
+                "max_elevation": 112.8,
+                "xs_id": 113857.7
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.5,
+                "max_elevation": 93.12,
+                "xs_id": 110321.2
+            },
+            "eclipsed": false,
+            "low_flow": 1563,
+            "high_flow": 37789,
+            "network_to_id": "11907746",
+            "ds_slope": 0.00083,
+            "ds_slope_source_nwm_id": "11907746",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 11,
+                        "std": 10,
+                        "min": 1,
+                        "25%": 3,
+                        "50%": 10,
+                        "75%": 18,
+                        "max": 23
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 10,
+                        "std": 10,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 8,
+                        "75%": 16,
+                        "max": 22
+                    }
+                },
+                "lengths": {
+                    "ras": 3548,
+                    "network": 3362,
+                    "network_to_ras_ratio": 0.95
+                },
+                "coverage": {
+                    "start": 0.03,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11907746",
+                    "overlap": 1022
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908298": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 11.8,
+                "max_elevation": 96.51,
+                "xs_id": 117158.6
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 10.4,
+                "max_elevation": 112.8,
+                "xs_id": 113857.7
+            },
+            "eclipsed": false,
+            "low_flow": 1560,
+            "high_flow": 37371,
+            "network_to_id": "11908300",
+            "ds_slope": 0.00024,
+            "ds_slope_source_nwm_id": "11908300",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 3,
+                        "mean": 43,
+                        "std": 71,
+                        "min": 1,
+                        "25%": 2,
+                        "50%": 3,
+                        "75%": 64,
+                        "max": 125
+                    },
+                    "thalweg_offset": {
+                        "count": 3,
+                        "mean": 75,
+                        "std": 125,
+                        "min": 2,
+                        "25%": 3,
+                        "50%": 3,
+                        "75%": 111,
+                        "max": 220
+                    }
+                },
+                "lengths": {
+                    "ras": 3309,
+                    "network": 3732,
+                    "network_to_ras_ratio": 1.13
+                },
+                "coverage": {
+                    "start": 0.15,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908300",
+                    "overlap": 79
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11908292": {
+            "us_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 20.5,
+                "max_elevation": 81.42,
+                "xs_id": 118899.1
+            },
+            "ds_xs": {
+                "river": "Patuxent River",
+                "reach": "1",
+                "min_elevation": 11.8,
+                "max_elevation": 96.51,
+                "xs_id": 117158.6
+            },
+            "eclipsed": false,
+            "low_flow": 1562,
+            "high_flow": 36952,
+            "network_to_id": "11908298",
+            "ds_slope": 0.00092,
+            "ds_slope_source_nwm_id": "11908298",
+            "metrics": {
+                "xs": {
+                    "centerline_offset": {
+                        "count": 4,
+                        "mean": 42,
+                        "std": 35,
+                        "min": 3,
+                        "25%": 18,
+                        "50%": 45,
+                        "75%": 69,
+                        "max": 76
+                    },
+                    "thalweg_offset": {
+                        "count": 4,
+                        "mean": 26,
+                        "std": 17,
+                        "min": 3,
+                        "25%": 17,
+                        "50%": 29,
+                        "75%": 37,
+                        "max": 42
+                    }
+                },
+                "lengths": {
+                    "ras": 1738,
+                    "network": 1673,
+                    "network_to_ras_ratio": 0.96
+                },
+                "coverage": {
+                    "start": 0.23,
+                    "end": 1
+                }
+            },
+            "overlapped_reaches": [
+                {
+                    "id": "11908298",
+                    "overlap": 647
+                }
+            ],
+            "eclipsed_reaches": []
+        },
+        "11906060": {
+            "eclipsed": true,
+            "low_flow": 698,
+            "high_flow": 6438,
+            "network_to_id": "11907726"
+        },
+        "11905848": {
+            "eclipsed": true,
+            "low_flow": 624,
+            "high_flow": 5777,
+            "network_to_id": "11906232"
+        },
+        "11905836": {
+            "eclipsed": true,
+            "low_flow": 627,
+            "high_flow": 5758,
+            "network_to_id": "11905844"
+        },
+        "11906000": {
+            "eclipsed": true,
+            "low_flow": 628,
+            "high_flow": 5463,
+            "network_to_id": "11906304"
+        },
+        "11906038": {
+            "eclipsed": true,
+            "low_flow": 647,
+            "high_flow": 5517,
+            "network_to_id": "11906046"
+        },
+        "11905974": {
+            "eclipsed": true,
+            "low_flow": 619,
+            "high_flow": 5624,
+            "network_to_id": "11905976"
+        },
+        "11905886": {
+            "eclipsed": true,
+            "low_flow": 634,
+            "high_flow": 5945,
+            "network_to_id": "11905914"
+        },
+        "11908578": {
+            "eclipsed": true,
+            "low_flow": 1517,
+            "high_flow": 25003,
+            "network_to_id": "11908582"
+        },
+        "11907774": {
+            "eclipsed": true,
+            "low_flow": 1527,
+            "high_flow": 30167,
+            "network_to_id": "11907782"
+        },
+        "11907764": {
+            "eclipsed": true,
+            "low_flow": 1569,
+            "high_flow": 33867,
+            "network_to_id": "11908316"
+        }
+    },
+    "metadata": {
+        "source_network": {
+            "file_name": "flows.parquet",
+            "type": "nwm_hydrofabric",
+            "version": "2.1"
+        },
+        "conflation_ripple1d_version": "0.10.4",
+        "metrics_ripple1d_version": "0.10.4",
+        "source_ras_model": {
+            "stac_api": "https://stac2.dewberryanalytics.com",
+            "stac_collection_id": "ebfe-12090301_LowerColoradoCummins",
+            "stac_item_id": "137a9667-e5cf-4cea-b6ec-2e882a42fdc8",
+            "units": "English",
+            "source_ras_files": {
+                "geometry": "PatuxentRiver.g01",
+                "forcing": "PatuxentRiver.f01",
+                "project-file": "PatuxentRiver.prj",
+                "plan": "PatuxentRiver.p06"
+            }
+        },
+        "length_units": "feet",
+        "flow_units": "cfs"
+    }
+}

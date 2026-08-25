@@ -1,0 +1,59 @@
+{
+    "us_xs": {
+        "river": "Halawakee Creek",
+        "reach": "Reach-1",
+        "min_elevation": 709.0,
+        "max_elevation": 736.31,
+        "xs_id": 4670.0
+    },
+    "ds_xs": {
+        "river": "Halawakee Creek",
+        "reach": "Reach-1",
+        "min_elevation": 683.55,
+        "max_elevation": 710.99,
+        "xs_id": 746.0
+    },
+    "eclipsed": false,
+    "low_flow": 18,
+    "high_flow": 171,
+    "network_to_id": "3297966",
+    "metrics": {
+        "xs": {
+            "centerline_offset": {
+                "count": 21,
+                "mean": 15,
+                "std": 9,
+                "min": 1,
+                "25%": 11,
+                "50%": 14,
+                "75%": 21,
+                "max": 32
+            },
+            "thalweg_offset": {
+                "count": 21,
+                "mean": 136,
+                "std": 58,
+                "min": 82,
+                "25%": 105,
+                "50%": 127,
+                "75%": 136,
+                "max": 344
+            }
+        },
+        "lengths": {
+            "ras": 3922,
+            "network": 3844,
+            "network_to_ras_ratio": 0.98
+        },
+        "coverage": {
+            "start": 0.48,
+            "end": 0.91
+        }
+    },
+    "overlapped_reaches": [],
+    "eclipsed_reaches": [],
+    "source_model": "C:\\collections\\mip_03130002\\source_models\\Halawakee_CreekT872\\Halawakee_CreekT872.prj",
+    "crs": "PROJCRS[\"NAD83(2011) / Alabama East (ftUS)\",BASEGEOGCRS[\"NAD83(2011)\",DATUM[\"NAD83 (National Spatial Reference System 2011)\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",6318]],CONVERSION[\"SPCS83 Alabama East zone (US survey foot)\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",30.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",-85.8333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.99996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",656166.667,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Alabama east of approximately 86\u00b037'W - counties Barbour; Bullock; Calhoun; Chambers; Cherokee; Clay; Cleburne; Coffee; Coosa; Covington; Crenshaw; Dale; De Kalb; Elmore; Etowah; Geneva; Henry; Houston; Jackson; Lee; Macon; Madison; Marshall; Montgomery; Pike; Randolph; Russell; StClair; Talladega; Tallapoosa.\"],BBOX[30.99,-86.79,35,-84.89]],ID[\"EPSG\",9748]]",
+    "version": "0.7.0",
+    "source_terrain": "C:\\reference_data\\seamless_3dep_dem_3m_5070.vrt"
+}
