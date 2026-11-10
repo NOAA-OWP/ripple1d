@@ -31,7 +31,7 @@ dependencies = [
     "fiona==1.9.6",
     "h5py==3.11.0",
     "huey==2.5.1",
-    "geopandas==1.0.1",
+    "geopandas==1.1.2",
     "matplotlib==3.9.0",
     "mypy_boto3_s3==1.34.120",
     "numpy==2.0.1",
