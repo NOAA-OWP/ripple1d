@@ -28,7 +28,7 @@ dependencies = [
     "contextily==1.6.0",
     "python-dotenv",
     "flask==3.0.3",
-    "fiona==1.9.6",
+    "fiona==1.10b2",
     "h5py==3.11.0",
     "huey==2.5.1",
     "geopandas==1.0.1",
